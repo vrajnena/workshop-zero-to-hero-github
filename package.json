@@ -18,15 +18,11 @@
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
     "concurrently": "^7.6.0",
-    "deck.gl": "^8.8.23",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
-    "mapbox-gl": "^2.12.0",
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-map-gl": "^7.0.21",
-    "swr": "^2.0.3",
     "typescript": "4.9.4"
   },
   "devDependencies": {
