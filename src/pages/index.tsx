@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Github } from '@/components/Svg'
-import { Metadata } from '@/components/Seo'
+import { Metadata } from '@/components/Metadata'
 import { GlobalSettings } from '@/components/Settings'
 import { GlobalLayout, VideoBg } from '@/components/Layout'
 

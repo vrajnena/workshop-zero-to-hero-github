@@ -11,8 +11,8 @@ export const themes: ThemeConfigIntf = {
         },
         settingsPanel: {
             attribution: {
-                author: 'Nikita Ryumshin',
-                link: 'https://www.pexels.com/video/glowing-cubes-7832341/',
+                author: 'Engin Akyurt',
+                link: 'https://www.pexels.com/video/mixing-colors-in-the-water-6721009/',
             },
             bg: 'bg-neutral-200/80',
             iconBg: 'bg-neutral-500 hover:bg-neutral-600',
