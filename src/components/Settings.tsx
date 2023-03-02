@@ -23,7 +23,7 @@ export const GlobalSettings: React.FC<{ theme: { name: WorkshopTheme }, setTheme
     return (
         <div className='absolute top-2 right-2 flex flex-col z-20'>
             <Popover className="relative">
-                {({ open }) => (
+                {({ open, close }) => (
                     <>
                         <Popover.Button
                             role='button'
@@ -83,6 +83,7 @@ export const GlobalSettings: React.FC<{ theme: { name: WorkshopTheme }, setTheme
                                                                     key={index}
                                                                     className={({ active }) => `relative cursor-default select-none py-2 pl-10 pr-4 ${active ? 'bg-neutral-100 text-slate-900' : ''}`}
                                                                     value={theme}
+                                                                    onClick={() => {close()}}
                                                                 >
                                                                     {({ selected }) => (
                                                                         <>

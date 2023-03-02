@@ -52,9 +52,9 @@ export default function Page() {
         title={`${Cfg.TITLE} | ${Cfg.AUTHOR}`}
         description={Cfg.DESCRIPTION}
       />
-      <section className='w-full h-full min-h-screen flex select-none'>
+      <section className='w-full h-screen flex select-none'>
         <VideoBg src={asset ? asset.bg : null} />
-        <section className='w-full h-full p-4 flex flex-col justify-center items-center absolute inset-0'>
+        <section className='w-full h-screen p-4 flex flex-col justify-center items-center absolute inset-0'>
           <div className='w-full max-w-4xl flex justify-center'>
             <div className={`w-full p-10 flex flex-col text-center items-center justify-center gap-6 ${asset ? asset.titlePanel.backdropColor : ''} rounded-md bg-clip-padding backdrop-filter-sm ${asset ? asset.titlePanel.backdropBrightness : ''} backdrop-blur-md`}>
               <Github fill={fillColor()} />
